@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #eef2f7;
+    color: white;
+    height: 40px;
+    /* width: 100%; */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.current-time {
+    align-items: center;
+    display: flex;
+    color: #1f5b9f;
+    padding-left: 575px;
+}
+.current-name {
+    align-items: center;
+    display: flex;
+    color: #1f5b9f;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.user-actions button:hover {
+    background-color: #c0392b;
+}
